@@ -3,7 +3,7 @@ Localize.io maven repositary
 
 Localize usage:
 
-1. Add repository url to your build.gradle file
+* Add repository url to your build.gradle file
 
 `
 maven {
@@ -11,20 +11,20 @@ maven {
     }
 `
 
-2. Add dependency
+* Add dependency
 
 `
     compile 'io.localize:localize:1.1.1'
 `
 
-3. Configure your MainActivity and Application classes
+* Configure your MainActivity and Application classes
 ```
 MainActivity->onCreate
         Localize.initialize(this);
 ApplicationClass->onConfigurationChanged
         Localize.onConfigurationChanged(newConfig);
 ```
-4. Get keys from localize.io and configure manifest
+* Get keys from localize.io and configure manifest
 
 ```
         <meta-data
