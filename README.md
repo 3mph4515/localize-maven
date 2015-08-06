@@ -14,6 +14,13 @@ maven {
 * Add dependency
 
 ```
+configurations {
+    compile.exclude module: 'stax'
+    compile.exclude module: 'stax-api'
+    compile.exclude module: 'xpp3'
+}
+....
+
     compile 'io.localize:localize:1.1.1'
 ```
 
