@@ -48,7 +48,7 @@ ApplicationClass->onConfigurationChanged
             android:value="dev_xxx..xxx"/>
 ```
 * Localize your views with 
-* 
+
 ```
 tvTextView.setText(Localize.getLocalizedString("key"));
 ```
