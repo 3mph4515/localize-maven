@@ -47,4 +47,12 @@ ApplicationClass->onConfigurationChanged
             android:name="localize_development_key"
             android:value="dev_xxx..xxx"/>
 ```
+* Localize your views with 
 
+```
+tvTextView.setText(Localize.getLocalizedString("key"));
+```
+
+* Android Studio SDK Plugin 
+
+https://bitbucket.org/jerminal/localize-android-studio-plugin/src/c3c074cdc7d8?at=master
