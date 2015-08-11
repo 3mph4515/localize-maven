@@ -25,5 +25,11 @@
       <version>2.3.1</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.jakewharton</groupId>
+      <artifactId>process-phoenix</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>
