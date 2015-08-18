@@ -56,3 +56,10 @@ tvTextView.setText(Localize.getLocalizedString("key"));
 * Android Studio SDK Plugin 
 
 https://bitbucket.org/jerminal/localize-android-studio-plugin/src/c3c074cdc7d8?at=master
+
+*Making screenshots and debug strings refreshing
+
+Add this to turn on snapshot widget
+```
+Localize.addSnapshotWidget(this);
+```
