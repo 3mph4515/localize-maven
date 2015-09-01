@@ -21,7 +21,7 @@ configurations {
 }
 ....
 
-    compile 'io.localize:localize:1.1.1'
+    compile 'io.localize:localize:1.1.17'
 ```
 
 * Configure your MainActivity and Application classes
